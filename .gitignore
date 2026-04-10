@@ -1,0 +1,32 @@
+# Large data — never commit
+crypto_data/
+binance_data/
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results (optional — commit only findings docs, not raw CSVs)
+results/*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
